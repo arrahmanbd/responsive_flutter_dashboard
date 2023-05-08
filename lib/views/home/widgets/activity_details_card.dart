@@ -11,7 +11,7 @@ class ActivityDetailsCard extends StatelessWidget {
     ActivityModel(icon: 'assets/svg/medel.svg', value: "314", title: "Awards"),
     ActivityModel(icon: 'assets/svg/dollar.svg', value: "\$564", title: "Earning"),
     ActivityModel(icon: 'assets/svg/heart.svg', value: "34", title: "Travel"),
-    ActivityModel(icon: 'assets/svg/ho.svg', value: "74", title: "Chills"),
+    ActivityModel(icon: 'assets/svg/hot.svg', value: "74", title: "Chills"),
   ];
 
   @override

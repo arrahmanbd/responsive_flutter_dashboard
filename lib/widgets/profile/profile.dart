@@ -45,7 +45,7 @@ class Profile extends ConsumerWidget {
                   height: 2,
                 ),
                 Text(
-                  "Edit health details",
+                  "Edit Profile Info",
                   style: TextStyle(
                     fontSize: 12,
                     color: Theme.of(context).primaryColor,

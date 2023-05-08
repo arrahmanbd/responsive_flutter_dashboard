@@ -21,15 +21,9 @@ class TimeLineState extends State<TimeLine> {
             systemOverlayStyle:
                 SystemUiOverlayStyle(statusBarBrightness: Brightness.dark),
             backgroundColor: Theme.of(context).cardColor,
-            elevation: 2,
-            title: Text("News Feed",
+            elevation: 0,
+            title: Text("My Feed",
                 style: MyText.title(context)!.copyWith(color: Colors.grey[80])),
-            leading: IconButton(
-              icon: Icon(Icons.menu, color: Colors.lightBlue[500]),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-            ),
             actions: <Widget>[
               IconButton(
                 icon: Icon(Icons.search, color: Colors.lightBlue[500]),
